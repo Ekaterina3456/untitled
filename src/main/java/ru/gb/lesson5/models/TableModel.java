@@ -64,7 +64,7 @@ public class TableModel implements Model {
         Table oldreserv = new Table();
         Reservation tab = new Reservation(reservationDate, name);
         if (tab.getId() == oldReservation + 1) {
-//            oldreserv.getReservations().remove();
+            oldreserv.getReservations().remove(name);
             for (Table table : tables){
                 if (table.getNo() == tableNo){
                     table.getReservations().add(tab);

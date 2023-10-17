@@ -18,6 +18,6 @@ public class Program {
         presenter.updateUIShowTables();
 
         view.reservationTable(new Date(), 3, "Станислав");
-        view.changeReservationTable(1001, new Date(), 4, "Пётр");
+        view.changeReservationTable(1001, new Date(), 4, "Станислав");
     }
 }
